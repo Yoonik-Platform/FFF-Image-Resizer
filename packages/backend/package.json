@@ -1,0 +1,14 @@
+{
+  "name": "fff-image-resizer-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev --port 8777",
+    "dev:remote": "wrangler dev --port 8777 --remote",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.73.0"
+  }
+}

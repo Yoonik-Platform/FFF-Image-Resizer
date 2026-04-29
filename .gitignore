@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Cloudflare / Wrangler
+.wrangler/
+.dev.vars
+**/wrangler.toml
+!**/wrangler.toml.example
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build / output
+dist/
+*.tsbuildinfo
+
+# Logs and cache
+*.log
+npm-debug.log*
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
